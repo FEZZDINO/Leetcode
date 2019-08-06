@@ -1,6 +1,6 @@
 
 n, dist = map(int, input().split())
-nums = list(map(int, input().split()))
+nums = list(map(int, input().split())
 
 res = 0
 left = 0
