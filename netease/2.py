@@ -1,17 +1,15 @@
-
-n,k =list(map(int, input().split()))
 values =list(map(int, input().split()))
 awakes =list(map(int, input().split()))
 #n,k = [6,3]
 #values = [1, 3, 5, 2, 5, 4]
 #awakes = [1, 1, 0, 1, 0, 0]
-
+  
 base_score =0
 for i in range(n):
     if awakes[i]:
         base_score += values[i]
         values[i] =0
-
+          
 max_boost_score =0
 for i in range(n):
     if not awakes[i]:
