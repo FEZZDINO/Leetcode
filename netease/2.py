@@ -1,3 +1,4 @@
+n,k =map(int, input().split())
 values =list(map(int, input().split()))
 awakes =list(map(int, input().split()))
 #n,k = [6,3]
